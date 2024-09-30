@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .main{
+        width: 100%;
+        background: url(bluebg.webp);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    
+        font-family: sans-serif;
+
+    }
+
+    .navbar{
+        width: 86%;
+        display: flex;
+        margin: auto;
+        padding: 15px 0px;
+        align-items: center;
+        justify-content: space-between;
+    
+        
+
+    }
+    
+
+    .navbar img{
+        height: 120px;
+        width: 180px;
+        margin-top: -15px;
+        margin-left: -120px;
+    }
+
+    ul{
+        margin-top: -35px;
+        margin-right: -2%;
+    }
+
+    ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 10px 45px;
+
+    }
+
+    ul li a{
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #075979;
+        margin-top: -3%;
+        transition: .4s ease;
+    }
+
+    ul li a:hover{
+        color: #1e87b1;
+    }
+
+    .info{
+        margin-top: 150px;
+        margin-left: 800px;
+    }
+
+    .info h1{
+        font-size: 50px;
+        color:white;
+    }
+
+    .info h3{
+        color: white;
+        font-size: 18px;
+        letter-spacing: 3px;
+        line-height: 30px;
+    }
+    .info span{
+        color: red;
+    }
+    .info a{
+        text-decoration: none;
+        color: whitesmoke;
+        background: black;
+        margin: 50px 9px;
+        padding: 10px 18px;
+        border-radius: 15px;
+        display: inline-block;
+        
+        }
+    .info a:hover{
+        background: gray;
+    }
+    .image img{
+       position: absolute;
+       height: 65vh;
+       bottom: 80px;
+       left: 140px;
+       
+        
+    }
+
+    img{
+        object-fit: cover;
+        transition: 1s ease;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+    .icons{
+        display: flex;
+        margin: -40px 800px;
+    }
+    .icons img{
+        color: white;
+        height: 30px;
+        margin: 20px;
+    }
+
+
+
+
+    .about{
+        height: 100vh;
+        width: 100%;
+        background: url(brownbg.jpg) ;
+        background-position: center;
+        background-size: cover;
+        font-family: sans-serif;
+        
+        
+
+
+    }
+    
+    
+        
+
+    
+    
+   
+    
+
+    .text b{
+        font-size: 50px;
+        padding: 40px;
+    }
+    .text h3{
+        padding: 45px;
+        font-size: 20px;
+        
+    }
+    .text a{
+        text-decoration: none;
+        color: whitesmoke;
+        background: black;
+        margin: 50px 120px;
+        padding: 10px 38px;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    
+    .aboutme h1{
+        margin-left: 180px ;
+        margin-top: -600px;
+        color: black;
+    }
+    .aboutme p{
+        width: 57vw;
+        margin-left: 500px;
+        margin-top: 170px;
+        font-size: 20px;
+        color: black;
+        word-spacing: 5px;
+    }
+   
+    .RP{
+        margin-top: 50px;
+        margin-left: 500px;
+    }
+    .RP a{
+        background-color: transparent;
+        border: 3px solid black;
+        color: black;
+        text-decoration: none;
+        margin: 10px 25px;
+        padding: 10px 18px;
+        border-radius: 25px;
+        display: inline-block
+    }
+
+
+
+
+    .skill{
+        height: 70vh;
+        width: 100%;
+       
+       margin-top: 130px;
+       background-color: rgb(52, 201, 246);
+    }
+    .skill h1{
+        margin: 30px 20px;
+    }
+    .skillimage{
+        margin-left: 25%;
+        margin-top: 150px;
+        
+    }
+    .skillimage img{
+        height: 230px;
+    
+    }
+
+
+
+
+    .contactme{
+        height: 40vh;
+        width: 100%;
+        background: url(brownbg.jpg);
+        display: flex;
+        justify-content: space-around;
+    }
+    .contactme h1{
+        margin: 10px 10px;
+    }
+    .contactme div{
+        margin-top: 150px;
+    }
+    .contactme b{
+        font-size: 25px;
+        color: red;
+    }
+    .contactme a{
+        text-decoration: none;
+        color: rgb(1, 18, 9);
+        font-size: 22px;
+        margin-left: 25px;
+    }
+
+   
+    
+</style>
+<body>
+    <div class="main">
+        <div class="navbar">
+           <a href="#"><img src="logo4.png"></a>
+           
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#aboutsection">ABOUT</a></li>
+                <li><a href="#skillsection">SKILLS</a></li>
+                <li><a href="#Contactsection">CONTACT</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="info">
+            <h3>Hi, I'M <span>Sumit</span>.</h3>
+            <H1><span>W</span>eb <span>D</span>eveloper</H1>
+            <h3>web designer and developer from MP,INDIA.
+                I create <br>websites to do businesses do better <br>online.
+            </h3>
+            <a href="#">Hire Me</a>
+        </div>
+        <div class="image">
+            <img src="newimage.png" alt="">
+        </div>
+
+        
+        
+
+        <div class="icons">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAolJREFUSEuVlU2IzlEUxn+nFMJCNnpJNhaKZElKFmKSjFiIbCgmC73TlCw0SBZq9M4sfJSFjZqFTJGPFVnI2tJnicZsLCymqNEc7//+75177scszGb+7/04z3Oec55zheqfICha7Ak0q/6f2y6+0wWxP+2FYr3OxANYQim5FmAxFFgKHAH2I2xD2ehSEL6ivANeAFMgczGzHCxnFlUYUOG2D7rA1AVKU/2MyhDoyyBXIlL8YfWVK6CXa1ovIt08cAHhZorfZFNmcBWV0cg0Jxx2qlBdkAl7NwEQOKjwJG2NRJ2fwAjCa5RvHmKsWfO1nEfZDbwJMhoAWSnoJ4W1TcjYpgtM/wJbgA9Z0mMgI6Z9m/2twJzrYpPoEHCn1o3+zCTIcVPkvYLuVGEfyo54z5EbVHicAzwFDiQAqcyXgOt+/yjwsDBavHwPOBN8GJanBTptE1acLAyjjPvDXaBnyWR+ajyyPQK0u78FXRYAKl2UAUjPesLVLHb6LxVWh6kSmmZWYEVmoxmQjr1csIZXwB5bA9DZvidWOQAj80dgUzjo13+ArCuYptb4DqzP6vEe2NxKHYRSHgAnMoAZoJOxszZpZtWf3DfAfYRTUaI2wjFgMgOwigyDLbKtgU3J5T7YL3LbpibCEuALwoZ85PszEUDoomkXGSW8PO2tfBYNAM+jasmXA/C1KdrUR2teqV3A2xC+9uBMoHK+8qJlEvkMUjNeA0aTTitevDaru86JdoJDHSBqc6Nf8Is2eCZR4d6TCD2UNR5nGGTcDzVbg2ngLPAsD547uZ2gKevlwGngMMIUyi1P+BzKIYFH2rSkn5z/BVAcrrwvhbzZQMqMlkaIZ9OUouSV6lk7+O9/d1P/IDtOp/kAAAAASUVORK5CYII="/></a>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAwVJREFUSEuF1k2IXEUUBeDvTgRFUTeDK2OEKKiEoBKRINGFBkGQQSf4E3Xjxp+FkGASUFwIohhFgysXuhAZf1CjjCBI3IWAiEECMSpBCQE3ZmXISqPXV9Wvu1+/6W4Lmtddr6rOveece6tDfwSS+mi/T1/TfRlClm3anaMtZdX/jjHYXMSpUc0HmHVeG9J04MlNEwCdVxuxW9gmbap5T+essHIch3EAJwdLh3QNkprgK3kSb+ECnMa3+HkI0OP6ZuFGaX3wd/I08c4MgIq8JeuBcSLkfcmvMzzQm45NIVeTq3ALfhgu6GtwEPfgOpyaqf7YaY81hnuR+DPk48n3+CJYHjhqgqKawankRAsyclywkGzHDfgHPxHfkGXua+I0ucEAYBFXT8mghnVWWJGe6kS/Hh83B23tZVSEfVf4Q7oieC8pDNyNS8aajWqjAvyL17G3Nc2CjCNkiehZHMI6Ybu0v7om3C4ja3XWQGIHuW6qBkEmr+C5luYH2ujL85MuZ9KDjVYfCUsyVluADxv6yvzCIIOeTQdTNbJ9bQb7pT24VDg3aiED+RbJM8JLMl6o1hzQu7Orbb8OMsMBaVdrgVdl7CUvbwrv7GSficWQZzK8LD3fBvw+Hp0PwJu1igfaLDeV/GlTrTuEz9puNjTgzpArWSmy2k6uEA+t1WDcIwpFpeR3jUV2BMWCe4hDZKnwuxqnvBb8ktxBV2RLwUWTdTDuM+dQonhi3LNdWcXktkmbxmHyYfze6TUHpTtRKO0XWv19sv2Uau4syYWm/Jdwb+Owv4SvpC9bU4wOynBUxmXktaPdk9eGleT+xprXB6Wq11wgPeBuUpuFY9IHTZCPDOPv96KbmiiP4hiW8dtkIj2SRinE5pCfZ9gg41aynDEIb8qdMmzXhZbvKiWDcR4/4kLhGlnbeRkXE1tCnk+eId7u6NcCrEXZGOxOttFeOGvoqs2xVP5xquBv6Lb31jgdimbfjz2dZl7uUy/9udfuKIraBrqZz9G6V+9zjTKdltl/Z7oeaIP7D+A3FSyJu+DfAAAAAElFTkSuQmCC"/></a>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAl1JREFUSEuVls+Lj1EUxj9nTFE0KxaKBiUpJFmxJEXKjzSRsmAhzZ6I/AFsLEY2kpqNzSyUmoWNNBtRxMKKTImSlab8quN773vf73vOvff74l3d7r3nnOc595znvMKITwBNZ3FdbIyy9PvB7D++UVHSfoEEpBepDV0x7o4FQRNjuwbHoAtmwzaXmhSVxv37LkD0sBJYGiKzTruYEwO411EOAxuBXyAzgl5RWAscAWZaSjZFywTeKEyBvLZP3NGPoR8D+8LC82QRWA+cAh60IG2KNgi8V/gCHBNYKKtIdoG+sMbtnbT3HHgCzAIvAwQbYIXAN4XxhO6uwjWQTx0bTifj6M++WWK5BDINer/GIOwtAHsy+k+Bh8AzYKfArQZ1lqDG4z3grC24hkFzdxWwBZgHVvc2R9V39HMD5aKrbnN3HfAB4Ssqa2JabP8UqH0HxRQJ0yi33YmhMwa8G9CczOnXARfRA4StwFvfgD4Xx5sSk3HzsGW2KhFTBW7KL9s3aM+mgKsC210JVgG7t76AcGeoim2TVsAcAnlkGRR3yo1FQTcr/OxlYOxCHZ8xIpTsqjR+A3tjGdv6TEVhpMLBGhPYpsJllJOFXVdRinAOjfXvP4PFymW4FARvt8AlhYPVfmgifgcNnT2Xt53v8KEH2Q96c2CwoxkTmcr4SPMDCTkPGgQu6xCfRqNFUesnFE6AHBX0gMJykB+Cflb4GJRUYE7hVQ8zM3zaeVBPcp66DqkFOap820e2XVeUpleDbPL7SVdPaSvXBaI0Gv/SXP8iIWUnVwTODvTsZ6bSH97BH7So8CB8yukIAAAAAElFTkSuQmCC"/></a>
+
+        </div>
+
+    </div>
+
+    <div class="about" id="aboutsection">
+        <div class="leftside"></div>
+           <img src="" alt="">
+        </div>
+        <div class="aboutme">
+            <h1>About Me</h1>
+            
+            <p>
+                Hi! I’m [Sumit], a web developer with a passion for building responsive and engaging websites. With 3 years of experience in HTML, CSS, and JavaScript, I enjoy turning complex ideas into user-friendly solutions.
+
+                My journey started and I’ve since worked on diverse projects. I’m always eager to learn new technologies and improve my skills. 
+                
+                When I’m not coding, you can find me [your hobbies or interests]. I’m excited about collaborating on innovative projects, so feel free to reach out!
+                
+                
+            </p>
+        <DIV class="RP">
+            <a href="#">Resume</a>
+            <a href="#">Portfolio</a>
+        </DIV>
+        </div>
+    </div>
+
+
+
+    <div class="skill" id="skillsection">
+        <h1>SKIIL:</h1>
+       
+        <div class="skillimage">
+           <img src="html logo.webp" alt="">
+           <img src="Css logo.webp" alt="">
+           <img src="javas logo.webp" alt="">
+        </div>
+    </div>
+
+
+    <div class="contactme" id="Contactsection">
+        <h1>Contact Me</h1>
+
+        <div>
+            <b>Phone No.</b><br>
+            <a href="#">6264457163</a>
+        </div>
+        <div>
+            <b>E-Mail</b><br>
+            <a href="#">sumitmalviy119@gmail.com</a>
+        </div>
+        <div>
+            <b>Address</b><br>
+            <a href="#">216 Rajiv Nagar, Ratalam,MP,india</a>
+        </div>
+
+        
+
+    </div>
+
+</body>
+</html>
